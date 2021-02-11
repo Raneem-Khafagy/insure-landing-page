@@ -1,0 +1,40 @@
+ /* Colors
+ Primary
+{--color--DarkViolet :hsl(256, 26%, 20%);
+--color-GrayishBlue : hsl(216, 30%, 68%);
+
+
+--color--Very Dark Violet: hsl(270, 9%, 17%);
+--color--Dark Grayish Violet: hsl(273, 4%, 51%);
+--color--Very Light Gray : hsl(0, 0%, 98%)} */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.d-flex justify-content-end{
+  float: right;
+}
+
+.bgContainers{
+  position: relative; left: 0; top: 0;
+
+}
+.firstContainer{ position: relative;
+  top: 0;
+  left: 0;}
+  .bgPatternRight{
+    position: absolute;
+      top: 60px;
+      right: 80px;
+
+  }
+  .imagePsitioned{
+    position: absolute;
+      top: 60px;
+      left: 80px;
+
+  }
